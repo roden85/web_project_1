@@ -120,8 +120,8 @@
 
 .staff__cards {
   max-width: 760px;
-  margin: auto;
-  margin-top: 68px;
+  margin: 68px auto auto;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -261,31 +261,26 @@
 }
 
 .person_name_feynman {
-  position: absolute;
   top: -30px;
   left: 319px;
 }
 
 .person_name_burbidge {
-  position: absolute;
   top: 96px;
   right: 125px;
 }
 
 .person_name_cannon {
-  position: absolute;
   bottom: 18px;
   right: 216px;
 }
 
 .person_name_mitchell {
-  position: absolute;
   bottom: 82px;
   left: 142px;
 }
 
 .person_name_tarter {
-  position: absolute;
   top: 79px;
   left: 159px;
 }
@@ -438,13 +433,12 @@
   padding-top: 16px;
 }
 
-.footer__column-heading {
-  margin: 0;
+.footer__column-
   padding-bottom: 4px;
 }
 
 .footer__column-link {
-  color: white;
+  color: #fff;
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
