@@ -433,7 +433,8 @@
   padding-top: 16px;
 }
 
-.footer__column-header {
+.footer__column-heading {
+  margin: 0;
   padding-bottom: 4px;
 }
 
